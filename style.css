@@ -1,0 +1,79 @@
+
+body{
+    background-color: lavender;
+}
+.im{
+    height: 150px;
+   
+    color: black;
+}
+.im img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+body{
+
+    width: auto;
+    margin-bottom: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: honeydew;
+}
+.im{
+    width: 40%;
+}
+
+.contact{
+   width: 50%;
+   text-align: center;
+    
+    background-color: gold;
+}
+main{
+    margin-top: 3%;
+    display: flex;
+    
+}
+.savoir h2{
+    margin-top: 50px;
+    padding-left: 20px;
+    background-color: lightcoral;
+}
+.savoir,h2{
+  
+    margin-right: 90px;
+}
+.moi h1,h2{
+    background-color: gold;
+}
+@media screen and (max-width: 1020px){
+    main{
+        display: block;
+    }
+    .savoir ul{
+        width: 100%;
+       
+    }
+
+}
+@media screen and (max-width:780px){
+    header{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 30px;
+     
+        
+    }
+
+    .contact{
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+         width: auto;
+         background-color: gold;
+     }
+}
